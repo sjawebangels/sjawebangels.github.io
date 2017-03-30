@@ -5,3 +5,4 @@ function open_card() {
 function close_card() {
   document.getElementById('outside').className = '';
 }
+
