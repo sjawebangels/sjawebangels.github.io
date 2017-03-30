@@ -1,0 +1,219 @@
+/* CSS Document */
+
+
+body{ background:#b6b6aa;
+	 color:#535353; 
+	 font:12px/16px Tahoma, Geneva, sans-serif}
+	 
+
+ul{list-style-type:none;}
+
+.clear {clear: both;
+        margin: 0px; 
+		height:0;}
+
+		
+#title{margin-left:170px;}
+		
+#desc a{font-weight:bold;
+		  color:#383838;
+		  font-size:14px;
+		  text-decoration:none;}
+
+#desc a:hover{color:#458b00;
+                font-size:16px;
+				font-weight:bold;
+				text-decoration:underline;}
+			
+#sites a{text-decoration:none;}
+
+#sites a:hover{color:#458b00;
+              font-weight:bold;
+		       text-decoration:underline;}
+			
+			
+#navPan{width:595px; 
+        height:46px;
+		padding:15px;
+		background:#b6b6aa;
+		}
+		
+#navPan {font:14px/16px Tahoma, Geneva, sans-serif;
+		font-weight:normal; 
+		color:#fff; 
+		text-align:center;
+		padding-bottom:25px;
+		}
+
+#navPan a.button{
+	float:left;
+	margin-left:32px;
+	padding:5px;
+	font-size:90%;
+	font-weight:bold;				
+	border-top:2px solid #cac2c2;
+	border-left:2px solid #cac2c2;
+	border-right:2px solid #333333;
+	border-bottom:2px solid #333333;
+	color:#333333;		
+	width:auto;
+	}	
+#navPan a.button:hover{	
+	border-top:2px solid #333333;
+	border-left:2px solid #333333;
+	border-right:2px solid #cac2c2;
+	border-bottom:2px solid #cac2c2;	
+	color:#ffffff;					
+	}	
+#navPan a.button span{
+	float:left;
+	line-height:24px;
+	height:24px;	
+	padding:0 10px;							
+	border-right:2px solid #777777;
+	border-bottom:2px solid #777777;					
+	}		
+#navPan a.button:hover span{
+	border:none;						
+	border-top:2px solid #777777;
+	border-left:2px solid #777777;		
+	cursor:pointer;	
+	}
+	
+	
+#navPanhome{width:570px; 
+        height:46px;
+		padding:15px;
+		background:#b6b6aa;
+		}
+		
+#navPanhome{font:14px/16px Tahoma, Geneva, sans-serif;
+		font-weight:normal; 
+		color:#fff; 
+		text-align:center;
+		padding-bottom:25px;
+		}
+
+#navPanhome a.button{
+	float:left;
+	margin-left:15px;
+	padding:5px;
+	font-size:90%;
+	font-weight:bold;				
+	border-top:2px solid #cac2c2;
+	border-left:2px solid #cac2c2;
+	border-right:2px solid #333333;
+	border-bottom:2px solid #333333;
+	color:#333333;		
+	width:auto;
+	}	
+#navPanhome a.button:hover{	
+	border-top:2px solid #333333;
+	border-left:2px solid #333333;
+	border-right:2px solid #cac2c2;
+	border-bottom:2px solid #cac2c2;	
+	color:#ffffff;					
+	}	
+#navPanhome a.button span{
+	float:left;
+	line-height:24px;
+	height:24px;	
+	padding:0 10px;							
+	border-right:2px solid #777777;
+	border-bottom:2px solid #777777;					
+	}		
+#navPanhome a.button:hover span{
+	border:none;						
+	border-top:2px solid #777777;
+	border-left:2px solid #777777;		
+	cursor:pointer;	
+	}
+	
+#container1{width:775px; 
+			margin:0 auto 0 auto; 
+			background:#ceccc0;
+			padding-top:10px;
+			padding-bottom:10px;}
+
+#container2{width:626px;
+			margin:0 auto 0 auto; 
+			background:#f8f8f8; 
+			border-top:#fff 10px solid;
+			border-left:#fff 10px solid;
+			border-right:#fff 10px solid;
+			border-bottom:#fff 10px solid;}
+
+#top img {width:625px;
+         border:none; 
+		 margin-bottom:5px;
+		 }
+
+#leftPan{width:160px;
+		 float:left;
+ 		 margin:0 10px 0 10px;} 
+
+#rightPan{width:180px;
+		  float:left`;
+		  margin-right:5px;
+		  margin-left:400px;
+		  } 
+
+ #reykjavik a{font-weight:bold;
+              color:#383838;
+			  text-decoration:none;
+              font-size:14px;	
+	}
+					   
+#reykjavik a:hover{color:#458b00;
+                  font-weight:bold;
+		           text-decoration:underline;
+	
+}					   
+		  
+#desc{width: 373px;
+      color:#383838;}
+
+#desc img{float:left;
+		  margin-right:20px;}
+
+		  
+#ani{margin-left:60px;
+     margin-top: 40px;
+	 margin-bottom:20px;}		  \
+
+#ani:focus{outline:none;}	 
+		  
+#reykjavik{width:170px;}
+
+#sites{ width:178px; }
+
+#sites a {font-weight:bold;
+         color:#383838;
+		 text-decoration:none;
+         font-size:14px;
+}
+
+#sites a:hover{color:#458b00;
+              font-weight:bold;
+		      text-decoration:underline;
+	
+}	
+	
+ footer{
+		  clear:left;	
+	      margin-top:5px;
+	      text-align:center;
+    	   color:#000000;}
+
+ p:first-letter {
+	
+   font-family: Tahoma, Geneva, sans-serif;
+   font-size: 24px;
+   color: #000000;
+	
+}
+
+#list{float:left;
+       text-align:left;}
+
+#list li {list-style-type:upper-roman;}
