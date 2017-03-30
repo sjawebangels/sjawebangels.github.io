@@ -1,64 +1,63 @@
 #outside {
-	z-index: 1;
-	position: absolute;
-	left:275px;
-	top:75px;
-	text-align: center;
-	transition: 1s;
-	transform-origin: 0;
-	height: 265;
-	width: 423;
-	background-color:#4680bf;
-
+  z-index:1; 
+  position:absolute; 
+  left:275px; 
+  top:75px; 
+  text-align:center;
+  transition:1s;
+  transform-origin:0; 
+  background-color:blue; 
+  width:300;
+  height:224; 
+  text-align:center; 
+} 
+.open-card{
+	transform:rotateY(90deg); 
+} 
+#inside{ 
+	z-index:0; 
+	position:absolute;
+	left:275px; 
+	top:75px; 
+	text-align:center;
+	transition:1s;
+	transform-origin:0; 
+	background-color:blue; 
+	width:300;
+	height:300; 
+	text-align:center; 
+} 
+#outside-title { 
+	color:red; 
+	font-size: 30; 
+	font-family: Tahoma; 
 }
-
-.open-card {
-	transform:rotateY(90deg);
-}
-
-#inside {
-	z-index: 0;
-	position: absolute;
-	height: 265;
-	width: 423;
-	left:275px;
-	top:65px;
-	background-color:#4680bf;
-	text-align: center;
-}
-
-#outside-title {
-	color: white;
-	font-size: 18pt;
-	font-family: Elephant;
-}
-
-#outside-pic {
-	color: white;
-	font-size: 18pt;
-	font-family: Elephant;
-}
-
+#outside-pic{
+	color:black; 
+	font-size: 30;
+	font-family: Tahoma;
+	width:300;
+	height:300; 
+} 
 #inside-title {
-	color: white;
-	font-size: 22pt;
-	font-family: Elephant;
-	font-weight: bold;
-}
-
-#inside-pic {
-	color: white;
-	font-size: 18pt;
-	font-family: Elephant;
-}
-
+	color:red; 
+	font-size: 30; 
+	font-family: Tahoma;
+} 
+#inside-pic{
+	color:black;
+	font-size: 30; 
+	font-family: Tahoma;
+	width:300;
+	height:224;
+} 
 #message {
-	color: white;
-	font-size: 16pt;
-	font-family: Elephant;
-}
-
+	color:black; 
+	font-size: 20; 
+	font-family: Tahoma;
+} 
 button {
-	background:#000000;
-	color:#ffffff;
-}
+	background:red; 
+} 
+
+  
