@@ -9,42 +9,39 @@ body {
  
 #container {
 	width: 1000px;
-	overflow: hidden;
-	margin: 50px auto;
 	background: white;
 }
  /*header*/
-header {
-	width: 800px;
-	margin: 40px auto;
-}
- 
-header h1 {
-	text-align: center;
-	font: 100 60px/1.5 Helvetica, Verdana, sans-serif;
-	
-}
- 
-header p {
-	font: 100 15px/1.5 Helvetica, Verdana, sans-serif;
-	text-align: justify;
-}
- 
+
+  .blocktext {
+	width:1400px;
+    text-align:center;	
+    margin-left: auto;
+    margin-right: auto;
+    font: Helvetica, Arial, sans-serif;
+    padding:30px;
+	}
+  	 
 /*photobanner*/
  
 .photobanner {
+	
 	height: 233px;
 	width: 3550px;
-	margin-bottom: 80px;
+	margin-bottom: 5px;
+    margin-top:35px;
+	}
+	
+footer{
+	padding: 35px;
 }
-
 /*keyframe animations*/
 .first {
-	-webkit-animation: bannermove 30s linear infinite;
-	   -moz-animation: bannermove 30s linear infinite;
-	    -ms-animation: bannermove 30s linear infinite;
-	     -o-animation: bannermove 30s linear infinite;
-	        animation: bannermove 30s linear infinite;
+	-webkit-animation: bannermove 40s linear infinite;
+	   -moz-animation: bannermove 40s linear infinite;
+	    -ms-animation: bannermove 40s linear infinite;
+	     -o-animation: bannermove 40s linear infinite;
+	        animation: bannermove 40s linear infinite;
 }
  
 @keyframes "bannermove" {
